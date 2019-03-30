@@ -1,0 +1,291 @@
+body{
+	/* font-family: Arial, Helvetica, sans-serif; */
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+a{
+		cursor: pointer;
+}
+
+.lhs-navi{
+	height: 800px;
+	background-color: #1a2d3e;
+	padding: 0;
+}
+
+.main-content{
+	height: 100%;
+	background-color: #ffffff;
+}
+
+.mod-block{
+	/* height: 120px; */
+	color: #ffffff;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+
+.lhs-navi hr{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #ffffff;
+}
+
+.three-sel-dots:after {
+  content: '\2807';
+  font-size: 14px;
+}
+
+.proj-list{
+	box-shadow: 0px 2px 0px #f3f3f3;
+	padding-bottom: 5px;
+}
+
+.proj-list ul{
+	white-space: nowrap;
+    font-size: 0;
+    display: block;
+    overflow: auto;
+	padding-left: 0;
+}
+
+.proj-list ul li{
+	list-style: none;
+	width: 200px;
+	display: inline-block;
+	margin: 10px 0;
+	cursor: pointer !important;
+}
+
+
+.proj-list li .three-sel-dots{
+	display: inline-block;
+	float: right;
+}
+
+.proj-list-header{
+	background-color: #4f83b2;
+	color: #d3eaff;
+	font-size: 12px;
+	padding: 5px 5px 5px 15px;
+	border-radius: 3px;
+	border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.proj-list-body{
+	border-radius: 3px;
+    box-shadow: 0px 4px 3px #f3f3f3;
+	padding: 15px 0;
+	display: inline-block;
+}
+
+.proj-list-body.active{
+	background-color: #eef3f7;
+}
+
+.proj-cnt-block{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 22px;
+	padding-left: 0;
+	float: left;
+	max-width: 40px;
+min-width: 25px;
+}
+
+.proj-cnt-title, .proj-cnt-users{
+	display: inline-block;
+	font-size: 12px;
+	top: 7px;
+	padding-left: 10px;
+	position: relative;
+}
+
+.proj-cnt-users{
+	display: inline;
+	top: 5px;
+}
+
+.proj-cnt-users span{
+    position: absolute;
+	top: 0;
+}
+
+.proj-cnt-users img{
+	width: 20px;
+    height: 20px;
+}
+
+.proj-cnt-users span:nth-child(1){
+	z-index: 1;
+}
+
+.proj-cnt-users span:nth-child(2){
+	left: 25px;
+	z-index: 2;
+}
+
+.proj-cnt-users span:nth-child(3){
+	left: 35px;
+	z-index: 3;
+}
+
+.proj-cnt-users span:nth-child(4){
+	left: 45px;
+	z-index: 4;
+	background-color: #4f83b2;
+	top: 2px;
+}
+
+.proj-body-block{
+	margin: 20px 0;
+	padding-left: 0;
+}
+
+.proj-header-block{
+	box-shadow: 0px 3px #eae7e7;
+	height: 50px;
+}
+
+.proj-header-block > .row > div{
+	height: 100%;
+	display: table;
+}
+
+.proj-header-block > .row > div > div{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.proj-header-title h4{
+	display: inline-block;
+}
+
+.proj-header-title span{
+	font-size: 11px;
+}
+
+.main-content{
+	padding-left: 0;
+}
+
+.header-icons{
+	color: #aeacac;
+	font-size: 12px;
+}
+
+.header-icon-div{
+	padding: 0 20px;
+}
+
+#search{
+	width: 90%;
+	border: none;
+	box-shadow: none;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.add-btn{
+	border: 1px solid #4f83b2;
+	border-radius: 0;
+	color: #4f83b2;
+}
+
+.proj-det-block{
+	margin-top: 20px;
+}
+
+#projTitle{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.last-updated-div{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.created-on-div{
+	font-style: italic;
+	font-size: 12px;
+	margin: 10px 0 5px 0;
+}
+
+.proj-form-user-list .nav > li.active > a, .proj-form-user-list .nav > li > a:focus, .proj-form-user-list .nav > li > a:hover{
+	border: 0;
+	border-bottom: 3px solid #4f83b2 !important;
+	background-color: transparent;
+}
+
+.grid-data table{
+	font-size: 14px;
+}
+.grid-data th{
+	background-color: #eef3f7;
+	border: 0 !important;
+}
+.grid-data th:nth-child(4), td:nth-child(4){
+	text-align: right;
+	padding-right: 30px !important;
+}
+
+.grid-data th:nth-child(1), td:nth-child(1){
+	padding-left: 30px !important;
+	width: 25px;
+}
+
+.grid-filters > div{
+	display: inline-block;
+}
+
+.form-group label{
+	color: #5d5b5b;
+	font-weight: normal;
+}
+
+#projectEditForm .select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single, .select2-container--default.select2-container--focus .select2-selection--multiple{
+	border: 0 !important;
+	border-bottom: 1px solid #aaa !important;
+	border-radius: 0 !important;
+	height: 40px !important;
+}
+
+.form-label{
+	font-size: 16px;
+}
+
+.margin-10{
+	margin: 10px;
+}
+
+#projectEditForm .btn{
+	width: 100%;
+}
+
+#projectEditForm button[type="submit"]{
+	color: #ffffff;
+	background-color: #545454;
+}
+
+.mod-block .glyphicon{
+	font-size: 20px;
+}
+
+.mod-block a, .mod-block a:hover{
+	color: #ffffff !important;
+	text-decoration: none;
+}
+.mod-title{
+	font-size: 12px;
+	margin-top: 5px;
+	display: block;
+}
+
+.mod-block:hover, .mod-block.active{
+	background-color: #4f83b2;
+	cursor: pointer;
+}
